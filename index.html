@@ -3,106 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="./css/uriflow.css">
-    <!-- icon -->
-    <link rel="icon shortcut" href="./img/logo.png">
-    <!-- document title -->
-    <title>Uriflow</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- ============= 最上方橫列 ============= -->
-    <div class="container">
-        <ul class="lists">
-            <li class="Hamber"><img src="./img/hamberbar.svg" alt="bar"></li>
-            <li class="Uriflow">尿優舒</li>
-            <li class="profile"><img src="./img/notify.svg" alt="notify"><img src="./img/user.svg" alt="user"></li>
+    <div class="navbar">
+        <div class="menu"></div>
+        <div class="head">尿優舒</div>
+        <ul>
+          <li class="notification"></li>
+          <li class="user"></li>
         </ul>
     </div>
-    <!-- end -->
-
-    <!-- ============= 尿液量 ============= -->
-    <div class="urine_weight">
-        <div class="urine_title"> <p class="weight">尿液量</p> <p class="unit">(單位: c.c)</p> </div>
-        <div class="urine_container">
-            <h1>500</h1>
-            <img class="urine" src="./img/urine.svg" alt="">
-        </div>
+    <div class="content">
+        <span class="intro">尿液量</span>
+        <span class="unit">(單位: c.c)</span>  
     </div>
-    <!-- end -->
-
-    <!-- ======== 尿液指數 ======== -->
-    <div class="urine_value">
-        <div class="urinevalue_title"> <h1>尿液指數</h1> <a href="./bacteria_info.html"><img src="./img/info.svg" alt="info"></a> </div>
-        <div class="bacteria_list">
-
-            <div class="bac_cotainer">
-                <div class="rbc">
-                    <div><img src="./img/bacteria/RBC.svg" alt="RBC">紅血球</div>
-                    <div>2</div>
-                </div>
-                <div class="orange_line"></div>
-            </div>
-
-            <div class="bac_cotainer">
-                <div class="rbc">
-                    <div><img src="./img/bacteria/WBC.svg" alt="WBC">白血球</div>
-                    <div>7</div>
-                </div>
-                <div class="red_line"></div>
-            </div>
-
-            <div class="bac_cotainer">
-                <div class="rbc">
-                    <div><img src="./img/bacteria/E.coli.svg" alt="E.coli">大腸桿菌</div>
-                    <div>0</div>
-                </div>
-                <div class="green_line"></div>
-            </div>
-
-            <div class="bac_cotainer">
-                <div class="rbc">
-                    <div><img src="./img/bacteria/Cand.svg" alt="Cand">念珠菌</div>
-                    <div>112</div>
-                </div>
-                <div class="red_line"></div>
-            </div>
-
-            <div class="bac_cotainer">
-                <div class="rbc">
-                    <div><img src="./img/bacteria/KP.svg" alt="KP">克雷伯菌</div>
-                    <div>61</div>
-                </div>
-                <div class="orange_line"></div>
-            </div>
-
-            <div class="bac_cotainer">
-                <div class="rbc">
-                    <div><img src="./img/bacteria/SA.svg" alt="SA">葡萄球菌</div>
-                    <div>0</div>
-                </div>
-                <div class="green_line"></div>
-            </div>
-
-            <div class="bac_cotainer">
-                <div class="rbc">
-                    <div><img src="./img/bacteria/PRO.svg" alt="PRO">尿蛋白</div>
-                    <div>24</div>
-                </div>
-                <div class="green_line"></div>
-            </div>
-
-            <div class="bac_cotainer">
-                <div class="rbc">
-                    <div><img src="./img/bacteria/EPC.svg" alt="EPC">表皮細胞</div>
-                    <div>8</div>
-                </div>
-                <div class="green_line"></div>
-            </div>
-
+    <div class="bg">
+        <div class="union">
+            <h1>500</h1> 
         </div>
+
     </div>
-    <!-- end -->
+
+    <div class="title">
+        <span class="t">尿液指數</span>
+        <!-- <span class="unit">(單位: c.c)</span>   -->
+    </div>
+
+    <div class="list">
+        <div class="row1">
+            <div class="type">
+                <div class="group">
+                    <div class="RBC"></div>
+                    <span class="name">紅血球</span>
+                    <span class="number">2</span>
+                </div>
+                <div class="obar"></div>
+             </div>
+            <div class="type">
+                <div class="group">
+                    <div class="WBC"></div>
+                    <span class="name">白血球</span>
+                    <span class="rnumber">7</span>
+                </div>
+                <div class="rbar"></div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="type">
+                <div class="group">
+                    <div class="Ecoli"></div>
+                    <span class="name">大腸桿菌</span>
+                    <span class="number">0</span>
+                </div>
+                <div class="gbar"></div>
+            </div>
+            <div class="type">
+                <div class="group">
+                    <div class="Cand"></div>
+                    <span class="name">念珠菌</span>
+                    <span class="rnumber">112</span>
+                 </div>
+                <div class="rbar"></div>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="type">
+                <div class="group">
+                    <div class="KP"></div>
+                    <span class="name">克雷伯菌</span>
+                    <span class="number">61</span>
+                 </div>
+                <div class="obar"></div>
+            </div>
+            <div class="type">
+                <div class="group">
+                    <div class="SA"></div>
+                    <span class="name">葡萄球菌</span>
+                    <span class="number">0</span>
+                </div>
+                <div class="gbar"></div>
+            </div>
+        </div>
+        <div class="row4">
+            <div class="type">
+                <div class="group">
+                    <div class="PRO"></div>
+                    <span class="name">尿蛋白</span>
+                    <span class="number">24</span>
+                </div>
+                <div class="gbar"></div>
+            </div>
+            <div class="type">
+                <div class="group">
+                    <div class="EPC"></div>
+                    <span class="name">表皮細胞</span>
+                    <span class="number">8</span>
+                </div>
+                <div class="gbar"></div>
+            </div>
+        </div>
+
+        <div class="plus"></div>
+    </div>
+    
+
 
 </body>
 </html>

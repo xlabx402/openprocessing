@@ -1,0 +1,259 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  /* width: 390px;
+    height: 844px; */
+  background-image: url("../img/background.svg");
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+  margin-top: 41px;
+}
+
+.menu {
+  background-image: url("../img/menu.svg");
+  width: 44px;
+  height: 44px;
+  position: relative;
+  margin-left: 8px;
+}
+
+.head {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  width: 210px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  height: 44px;
+  position: relative;
+  width: 70px;
+  margin: 0;
+}
+
+.notification {
+  position: absolute;
+  background-image: url("../img/notification.svg");
+  width: 44px;
+  height: 44px;
+  margin-right: 104px;
+}
+
+.user {
+  position: absolute;
+  background-image: url("../img/user.svg");
+  width: 44px;
+  height: 44px;
+  margin-right: 0px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  /* padding: 20px 24px; */
+  /* border-radius: 4px; */
+}
+
+.intro {
+  width: 258px;
+  height: 24px;
+  margin: 24px 9px 10px 66px;
+  /* font-family: Roboto; */
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+
+.unit {
+  width: 57px;
+  height: 24px;
+  margin: 26px 16px 8px 20px;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 600;
+  text-align: right;
+  color: #fff;
+}
+
+.bg {
+  background-image: url("../img/union_bg.svg");
+  width: 358px;
+  height: 164px;
+  margin: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.union {
+  background-image: url("../img/Union.svg");
+  width: 354px;
+  height: 121px;
+  /* margin: 0px 4px 2px 4px; */
+  position: absolute;
+  z-index: 2;
+  top: 40px;
+  left: 2px;
+}
+
+h1 {
+  /* padding: 25px 81px 32px 80px; */
+  text-align: center;
+  font-size: 48px;
+  position: relative;
+  color: #1a6336;
+  z-index: 500;
+}
+
+.t {
+  width: 96px;
+  height: 24px;
+  margin: 16px 10px 5px 147px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+
+.list {
+  background-image: url("../img/white.svg");
+  width: 358px;
+  height: 449.8px;
+  margin: 5px 16px 44px 16px;
+}
+
+.number {
+  height: 24px;
+  width: 39px;
+}
+
+.rnumber {
+  height: 24px;
+  width: 39px;
+  color: red;
+}
+
+.name {
+  height: 16px;
+  width: 93px;
+}
+
+/* 各種菌 */
+.RBC {
+  background-image: url("../img/RBC.svg");
+  width: 38px;
+  height: 38px;
+}
+.WBC {
+  background-image: url("../img/WBC.svg");
+  width: 38px;
+  height: 38px;
+}
+.Ecoli {
+  background-image: url("../img/E.coli.svg");
+  width: 38px;
+  height: 38px;
+}
+.Cand {
+  background-image: url("../img/Candnew.svg");
+  width: 38px;
+  height: 38px;
+}
+.EPC {
+  background-image: url("../img/EPC.svg");
+  width: 38px;
+  height: 38px;
+}
+.KP {
+  background-image: url("../img/KP.svg");
+  width: 38px;
+  height: 38px;
+}
+.PRO {
+  background-image: url("../img/PRO.svg");
+  width: 38px;
+  height: 38px;
+}
+.SA {
+  background-image: url("../img/SA.svg");
+  width: 38px;
+  height: 38px;
+}
+
+/* color bar */
+.obar {
+  /* background-image: url("../img/orange.png"); */
+  height: 4px;
+  width: 148px;
+  background-color: #ff7a00;
+  border-radius: 2px;
+}
+.rbar {
+  /* background-image: url("../img/red.png"); */
+  height: 4px;
+  width: 148px;
+  background-color: #fa1515;
+  border-radius: 2px;
+}
+.gbar {
+  /* background-image: url("../img/green.png"); */
+  height: 4px;
+  width: 148px;
+  background-color: #8ac33e;
+  border-radius: 2px;
+}
+
+.plus {
+  background-image: url("../img/Plus.svg");
+  height: 38px;
+  width: 38px;
+  position: relative;
+  left: 160px;
+}
+
+.group {
+  display: flex;
+}
+
+/* rows */
+.row1 {
+  display: flex;
+  flex-direction: row;
+  padding: 35px 16px 30px 16px;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  padding: 35px 16px 30px 16px;
+}
+.row3 {
+  display: flex;
+  flex-direction: row;
+  padding: 35px 16px 30px 16px;
+}
+.row4 {
+  display: flex;
+  flex-direction: row;
+  padding: 35px 16px 30px 16px;
+}
+
+.name {
+  font-weight: 700;
+}
