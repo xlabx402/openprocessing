@@ -47,7 +47,8 @@ body {
   padding: 0;
   /* border-radius: 20px; */
   width: 800px;
-  overflow: visible;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .container {
@@ -439,7 +440,7 @@ table {
 th {
   font-family: NVIDIASans;
   text-align: left;
-  padding: 10px;
+  padding: 8px;
   color: #eee;
   /* White text for headers */
   width: 120px;
@@ -449,8 +450,8 @@ th {
 
 .green-box {
   display: inline-block;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   background-color: #76b900;
   margin-right: 5px;
   vertical-align: middle;
@@ -458,7 +459,7 @@ th {
 
 td {
   font-family: NVIDIASans;
-  padding: 10px;
+  padding: 8px;
   border-top: 1px solid #696969;
   border-bottom: 1px solid #696969;
   /* Slightly lighter line for contrast */
