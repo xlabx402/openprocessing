@@ -47,7 +47,7 @@ body {
   padding: 0;
   /* border-radius: 20px; */
   width: 800px;
-  overflow-y: auto;
+  overflow-y: visible;
   overflow-x: hidden;
   max-height: 100vh;
 }
