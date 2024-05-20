@@ -465,11 +465,11 @@ th {
 
 .green-box {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background-color: #76b900;
-  margin-right: 5px;
-  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 2px;
 }
 
 td {
