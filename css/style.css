@@ -351,7 +351,7 @@ body {
   position: relative;
   width: 800px;
   height: 300px;
-  margin: 16px 20px 0 0px;
+  margin: 0 20px 0 0px;
   padding: 0 20px 20px 28px;
   object-fit: contain;
   background-image: url(../image/img-banner-broadcast.png);
@@ -488,7 +488,7 @@ td {
   position: relative;
   width: 800px;
   height: 300px;
-  margin: 16px 20px 0 0px;
+  margin: 0 20px 0 0px;
   padding: 0 20px 20px 28px;
   object-fit: contain;
   background-image: url(../image/img_banner_chatrtx.png);
@@ -554,7 +554,7 @@ td {
   position: relative;
   width: 800px;
   height: 300px;
-  margin: 16px 20px 0 0px;
+  margin: 0 20px 0 0;
   padding: 0 20px 20px 28px;
   object-fit: contain;
   background-image: url(../image/img_banner_canvas.png);
