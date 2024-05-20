@@ -121,7 +121,7 @@ body {
   height: 20px;
   display: flex;
   gap: 10px;
-  margin: 5px 10px 21px 20px;
+  margin: 5px 10px 16px 0;
   padding: 0;
   /* background-image: url(./image/ic-back.svg); */
   object-fit: contain;
@@ -134,7 +134,7 @@ body {
   align-items: left; */
   font-family: "Predator";
   font-weight: normal;
-  padding: 22px 0px 16px 10px;
+  padding: 30px 20px 16px 20px;
   font-size: 24px;
   color: #ffffff;
 }
