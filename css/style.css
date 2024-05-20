@@ -134,7 +134,7 @@ body {
   align-items: left; */
   font-family: "Predator";
   font-weight: normal;
-  padding: 30px 20px 0 20px;
+  padding: 22px 0px 16px 10px;
   font-size: 24px;
   color: #ffffff;
 }
@@ -143,7 +143,7 @@ body {
   position: relative;
   width: 800px;
   height: 300px;
-  margin: 16px 20px 0 0px;
+  margin: 0 20px 0 0px;
   padding: 0 20px 20px 28px;
   object-fit: contain;
   background-image: url(../image/img-banner-omniverse.png);
