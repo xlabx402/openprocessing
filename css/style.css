@@ -129,6 +129,7 @@ body {
   width: 100px;
   height: 60px;
   margin-left: 5px;
+  object-fit: contain;
 }
 
 /* ----Omniverse----- */
