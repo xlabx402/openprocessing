@@ -132,19 +132,50 @@ body {
   object-fit: contain;
 }
 
+.linkDark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 30px;
+}
+
 .webLink {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 30px auto 10px auto;
+}
+
+.webLinkDark {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  margin: 30px auto 10px auto;
 }
 
 .moreButton {
-  font: normal 14px "Predator";
+  background-color: #76b900;
+  color: #000000;
+  font: bold 14px "Predator";
+  /* margin: 30px auto; */
+  padding: 15px 30px;
+  border: none;
+  /* border-radius: 5px; */
   text-align: center;
-  color: #76b900;
-  text-decoration: underline;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
 }
+
+.moreButton:hover {
+  background-color: #66a100;
+}
+
 
 /* ----Omniverse----- */
 
