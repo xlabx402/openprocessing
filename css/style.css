@@ -132,6 +132,20 @@ body {
   object-fit: contain;
 }
 
+.webLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.moreButton {
+  font: normal 14px "Predator";
+  text-align: center;
+  color: #76b900;
+  text-decoration: underline;
+}
+
 /* ----Omniverse----- */
 
 .webTitle {
