@@ -51,6 +51,45 @@ body {
   /*  max-height: 100vh;*/
 }
 
+/* Scroll bar */
+
+::-webkit-scrollbar {
+
+  width: 8px;
+
+}
+
+::-webkit-scrollbar-button {
+
+  background: transparent;
+
+  border-radius: 0px;
+
+}
+
+::-webkit-scrollbar-track-piece {
+
+  background: transparent;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+  /* border-radius: 4px; */
+
+  background-color: rgba(255, 255, 255, 0.3);
+
+  /* border: 1px solid slategrey; */
+
+}
+
+::-webkit-scrollbar-track {
+
+  box-shadow: transparent;
+
+}
+
+
 .container {
   position: relative;
   width: 760px;
